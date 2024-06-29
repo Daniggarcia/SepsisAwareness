@@ -1,0 +1,148 @@
+/* Asegúrate de cargar la fuente Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Asegúrate de cargar la fuente Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Estilos globales para el header */
+.AppBar {
+    box-shadow: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.Toolbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.Toolbar .MuiTypography-h6 {
+    flex-grow: 1;
+}
+
+.Toolbar .MuiButton-root {
+    margin: 0 10px;
+}
+
+.Toolbar .MuiIconButton-root {
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .Toolbar .MuiButton-root {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .MuiToolbar-root {
+        min-height: 150px;
+    }
+}
+
+/* Estilos personalizados para los enlaces del header */
+.header-link {
+    color: gray !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+}
+
+.header-link:hover {
+    color: black !important;
+    background-color: transparent !important;
+    font-weight: bold !important;
+}
+
+.MuiButton-root {
+    text-transform: none;
+}
+
+/* Ajuste de margen para el contenido principal */
+.main-content {
+    margin-top: 150px;
+    /* Margen superior para ajustar la posición del contenido principal */
+}
+
+/* Estilos para la sección Hero */
+.hero {
+    position: relative;
+    width: 100vw;
+    /* Asegura que el ancho sea el 100% del viewport */
+    height: 80vh;
+    /* Asegura que la altura sea el 100% del viewport */
+    margin-top: 0;
+    /* Elimina el margen superior */
+}
+
+.hero video {
+    width: 100%;
+    height: 80vh;
+    /* Ajusta la altura de todos los videos a la altura del viewport */
+    object-fit: cover;
+    /* Asegura que los videos se escalen correctamente */
+    cursor: pointer;
+    /* Cambia el cursor para indicar que es clickeable */
+}
+
+.heroText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.animated-info {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+
+.animated-item {
+    display: inline-block;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    33%,
+    100% {
+        transform: translateY(0);
+    }
+
+    34%,
+    66% {
+        transform: translateY(-100%);
+    }
+}
+
+.heroLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.custom-link:hover {
+    color: #ddd;
+}
+
+.contact-phone {
+    font-size: 1.2rem;
+}
+
+.bi-phone {
+    margin-right: 5px;
+}

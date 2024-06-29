@@ -4,7 +4,7 @@ import { Container, Typography, Grid } from '@mui/material';
 const Testimonials = () => {
   return (
     <Container>
-      <Grid container spacing={3} alignItems="center" justifyContent="center">
+      <Grid container alignItems="center" justifyContent="center" paddingTop='20px'>
         <Grid item xs={12} md={8}>
           <Typography variant="h2" component="h1" gutterBottom>
             Testimonials
