@@ -61,7 +61,6 @@
 /* Estilos para la sección Hero */
 .hero {
     position: relative;
-    height: 80vh;
     margin-top: 0;
 }
 
@@ -132,4 +131,27 @@
 
 .bi-phone {
     margin-right: 5px;
+}
+
+/* Estilos para WhatIsSepsis Component */
+.flexible-content-full-width-content .page-content-wrap {
+    overflow: visible;
+    margin: 0px auto 20px;
+}
+
+.flexible-content-full-width-content .section-title {
+    overflow: hidden;
+}
+
+.flexible-content-full-width-content .section-content {
+    overflow: visible;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid #fff;
+}
+
+.whatissepsis {
+    position: relative;
+    bottom: 35px;
+    z-index: 10;
 }
