@@ -2,6 +2,7 @@
 
 .main-content {
     margin-top: 150px;
+    /* min-height: 'calc(100vh - 222px)' */
 }
 
 /* Estilos globales para el header */
@@ -65,10 +66,16 @@
 }
 
 .hero video {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
+    width: 100vw;
+    height: auto;
     cursor: pointer;
+}
+
+@media (min-width: 1281px) {
+    .hero video {
+        width: 100vw;
+        height: 80vh;
+    }
 }
 
 .heroText {

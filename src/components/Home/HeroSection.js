@@ -17,7 +17,7 @@ const HeroSection = () => {
     <section className="hero" id="hero">
       <Grid container alignItems="center" justifyContent="center">
         <Grid item xs={12}>
-          <Carousel indicators={false} interval={3000}>
+          <Carousel indicators={false} interval={4500}>
             {videos.map((video, index) => (
               <Box
                 key={index}
@@ -28,7 +28,7 @@ const HeroSection = () => {
                 loop
                 muted
                 onClick={video.onClick}
-                sx={{ width: '100%', height: '80vh', objectFit: 'cover' }}
+                sx={{ width: '100%' }}
               />
             ))}
           </Carousel>

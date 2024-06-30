@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <div className="main-content" style={{ minHeight: 'calc(100vh - 222px)' }}>
+      <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
