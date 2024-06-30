@@ -8,11 +8,13 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+import './styles/global.css';
+
 function App() {
   return (
     <Router>
       <Header />
-      <div style={{ minHeight: 'calc(100vh - 64px - 64px)' }}> {/* Adjust for header and footer heights */}
+      <div className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
