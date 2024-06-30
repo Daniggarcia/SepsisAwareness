@@ -143,18 +143,31 @@
 /* Estilos para WhatIsSepsis Component */
 .flexible-content-full-width-content .page-content-wrap {
     overflow: visible;
-    margin: 0px auto 20px;
+    border-radius: 15px;
+    padding: 0 0 10px 0;
 }
 
 .flexible-content-full-width-content .section-title {
     overflow: hidden;
+    padding-top: 20px;
+    background: linear-gradient(135deg, #099FDC, #41A52B);
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}
+
+.flexible-content-full-width-content .section-title h4 {
+    color: white;
+    padding-bottom: 15px;
 }
 
 .flexible-content-full-width-content .section-content {
     overflow: visible;
-    margin: 20px auto;
-    padding: 30px;
     border: 2px solid #fff;
+    padding: 20px 0;
+}
+
+.flexible-content-full-width-content .section-content p {
+    padding: 15px;
 }
 
 .whatissepsis {
