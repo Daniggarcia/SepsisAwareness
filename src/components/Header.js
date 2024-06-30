@@ -66,7 +66,6 @@ const Header = () => {
               alignItems: 'center',
               textDecoration: 'none',
               color: 'inherit',
-              marginX: 2,
               position: { xs: 'absolute', md: 'static' },
               left: { xs: '50%', md: '0' },
               transform: { xs: 'translateX(-50%)', md: 'none' }

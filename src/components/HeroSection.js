@@ -32,22 +32,6 @@ const HeroSection = () => {
               />
             ))}
           </Carousel>
-
-          <Box
-            className="heroText d-flex flex-column justify-content-center"
-            sx={{
-              textAlign: 'center',
-              color: 'white',
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-              width: '100%',
-              padding: '20px'
-            }}
-          >
-            {/* Texto de la hero section */}
-          </Box>
         </Grid>
       </Grid>
     </section>
